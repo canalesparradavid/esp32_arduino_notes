@@ -1,7 +1,7 @@
 # Simulador
 Existe un simulador para la creación de circuitos en placas ESP32; es buena práctica probar todas las configuraciones que vayas a poner a tu placa antes en el simulador para evitar posibles problemas y que en caso de que los hubiese solucionarlos mas rápido.
 
-Dicho esto, el simulador que vamos a usar es el [Wokwi](wokwi.com) que dispone de simuladores para diferentes placas de desarrollo e incluso se puede usar en el editor de código `VS Code`.
+Dicho esto, el simulador que vamos a usar es el [Wokwi](http://wokwi.com) que dispone de simuladores para diferentes placas de desarrollo e incluso se puede usar en el editor de código `VS Code`.
 
 Además cuenta con proyectos de ejemplo sobre los que nos podemos basar o aprender.
 
