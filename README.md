@@ -13,9 +13,7 @@ En este repositorio se encuentran diferentes tipos de contenidos estructurados e
 Antes de empezar a programar esta placa, asegúrate de cumplir con los siguientes requisitos:
 
 1. Instala los drivers para el conversor CP2102 de Silicon Labs. Puedes encontrarlos en la página 25 de la documentación de la placa ESP32 almacenada en la sección de recursos o descargarlos directamente desde esta misma sección (solo compatible con Windows).
-
 2. Necesitarás una cuenta en Arduino Cloud y acceso a una red Wi-Fi con conexión a internet.
-
 3. Para la integración con Arduino Cloud, deberás utilizar el Agente de Arduino. Puedes descargarlo cuando intentes vincular la placa desde el portal de Arduino Cloud o encontrar el instalador para Windows en la sección de recursos.
 
 Para ver pasos mas detallados ve a [este](explicaciones/Puesta_a_punto.md) documento con los pasos de instalación y configuración.
