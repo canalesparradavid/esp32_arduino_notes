@@ -1,0 +1,95 @@
+{
+	"info": {
+		"_postman_id": "04b66230-8aa7-4995-b5d3-d22dbe5ca84a",
+		"name": "mini_api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "19881502"
+	},
+	"item": [
+		{
+			"name": "list logs",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/list.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"list.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "add log",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/insert.php?fecha=&descripcion=",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"insert.php"
+					],
+					"query": [
+						{
+							"key": "fecha",
+							"value": "",
+							"description": "Una fecha en formato YYYYMMdd"
+						},
+						{
+							"key": "descripcion",
+							"value": "",
+							"description": "Una descripción del log"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Ejemplo",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8000/insert.php?fecha=20231108&descripcion=Ejemplo de log",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"insert.php"
+							],
+							"query": [
+								{
+									"key": "fecha",
+									"value": "20231108",
+									"description": "Una fecha en formato YYYYMMdd"
+								},
+								{
+									"key": "descripcion",
+									"value": "Ejemplo de log",
+									"description": "Una descripción del log"
+								}
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				}
+			]
+		}
+	]
+}
