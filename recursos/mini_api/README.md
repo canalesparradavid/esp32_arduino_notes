@@ -2,7 +2,7 @@
 Este proyecto consiste de una API en PHP8 la cual se encarga de listar y registrar logs.
 El listado de logs se devuelve en formato JSON.
 
-Se puede encontrar la documentanción de la API importando el fichero [documentation.json](mdocumentation.json) en el programa [Postman](https://www.postman.com/).
+Se puede encontrar la documentanción de la API importando el fichero [documentation.json](documentation.json) en el programa [Postman](https://www.postman.com/).
 
 Para lanzar la API basta con ejecutar el siguiente comando en la raiz del programa (dentro de la carpeta `api`):
 ```
