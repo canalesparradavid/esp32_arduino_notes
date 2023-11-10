@@ -32,3 +32,6 @@ http.end();
 
 ### Documentación
 Si en algún momento tienes dudas de como funcionan las peticiones a esta API puedes encontrar ayuda dentro del Dashboard en el apartado `API > API Reference` de su aplicación; en este apartado podrá encontrar la documentación de sus clases y ejemplos de codigo de peticiones HTTP.
+
+### Ejemplo
+Puedes encontrar un ejemplo de como realizar la petición explicada aquí arriba en este código: [Ejemplo POST](../ejemplos/Back4App)
